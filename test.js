@@ -12,3 +12,5 @@ var customerAge = 32;
 
 var myVar3 = 40;
 
+
+
