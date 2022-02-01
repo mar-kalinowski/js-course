@@ -137,11 +137,27 @@ for(i = 0; i < links.length; i++) {
 
 function getAverage (a,b) {
 
-    var avarage = (a + b) / 2
-    console.log(avarage)
-    return avarage
+    var average = (a + b) / 2 //local variable
+    console.log(average)
+    return average
 }
 
 
-var myResult = getAverage(7,8)
-console.log('the average is ' + myResult)
+/* var myResult = getAverage(7,8) //global variable */
+
+
+/* function logResult() {
+
+    console.log('the average is ' + myResult)
+
+} */
+
+var myResult = getAverage(7,8) //global variable
+
+function logResult() {
+
+    console.log('the average is ' + myResult + ' inside the function')
+
+}
+
+logResult()
