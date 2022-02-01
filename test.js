@@ -53,7 +53,7 @@ if (myNum == 10) {
     document.write('myNum is not equal to 10')
 } */
 
-var myAge = 8
+/* var myAge = 8
 if (myAge > 30) {
     document.write('you are over 30!')
 } else if (myAge > 20) {
@@ -63,3 +63,35 @@ if (myAge > 30) {
 } else {
     document.write('you are not over 10')
 }
+
+var x = 5
+x > 4
+x >= 5
+x < 5
+x <= 5
+x == 4
+x == 5
+x ===5
+x === '5'
+x != 4
+x = '5'
+x !== 5 */
+
+/* var myAge = 35
+
+if (myAge >= 18 && myAge <= 30) {
+    document.write('you can come')
+} else {
+    document.write('you aint coming')
+} */
+
+/* var myAge = 26
+
+if (myAge < 18 || myAge > 30 || myAge ===25) {
+
+    document.write('you aint coming')
+    
+} else {
+    document.write('you can come')
+} */
+
