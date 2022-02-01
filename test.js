@@ -185,3 +185,29 @@ if (isNaN(a)) {
 
     console.log('meaning of life is ' + (a * b))
 } */
+
+var myString = 'I\'m a "fun box" string'
+    /* console.log(myString.length)
+    console.log(myString.toUpperCase())
+    console.log(myString.toLowerCase())
+    console.log(myString.indexOf('string')) */
+
+    /* if (myString.indexOf('box') === -1) {
+        console.log('the word box in not in the string')
+
+      } else {
+          console.log('the word box starts at position ' +
+          myString.indexOf('box'))
+      }  */
+
+var string1 = 'abc'
+var string2 = 'bcd'
+
+console.log(string1.toLowerCase === string2.toLowerCase)
+console.log(string1 < string2)
+
+
+
+
+
+
