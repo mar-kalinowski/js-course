@@ -135,12 +135,12 @@ for(i = 0; i < links.length; i++) {
     links[i].className = 'link-' + i;
 } */
 
-function getAverage (a,b) {
+/* function getAverage (a,b) {
 
     var average = (a + b) / 2 //local variable
     console.log(average)
     return average
-}
+} */
 
 
 /* var myResult = getAverage(7,8) //global variable */
@@ -162,7 +162,7 @@ function logResult() {
 
 logResult() */
 
-var a = '5'
+/* var a = '5'
 var b = 5
 
 console.log(a + b)
@@ -172,4 +172,16 @@ console.log(Math.round(7.5))
 console.log(Math.floor(7.5))
 console.log(Math.ceil(7.5))
 console.log(Math.max(7,5,9,15,300))
-console.log(Math.PI)
+console.log(Math.PI) */
+
+/* var a = 8
+var b = 5
+
+//console.log(a * b)
+
+if (isNaN(a)) {
+    console.log('tha int even a number, thickie')
+} else {
+
+    console.log('meaning of life is ' + (a * b))
+} */
