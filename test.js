@@ -29,3 +29,7 @@ myVar *= 5
 
 document.write()
 console.log()
+//Booleans
+var iLikeMeat = true
+iLikeMeat = false
+
