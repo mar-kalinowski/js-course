@@ -377,6 +377,27 @@ title.style.colot = 'red'
 
 title.style.backgroundColor = 'blue' */
 
+/* var newLi = document.createElement('li')
+
+var newA = cocument.createElement('a')
+
+var menu = document.getElementById('main-nav').getElementsByTagName('ul')[0]
+menu.appendChild(newLi)
+
+newLi.appendChild(newA)
+
+newA.innerHTML = 'Blog'
+
+menu.insertBefore(newLi, menu.getElementsByTagName('li')[0]) */
+
+
+
+
+
+
+
+
+
 
 
 
