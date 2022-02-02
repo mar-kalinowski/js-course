@@ -206,7 +206,7 @@ var string2 = 'bcd'
 console.log(string1.toLowerCase === string2.toLowerCase)
 console.log(string1 < string2) */
 
-var str = 'hello, world'
+/* var str = 'hello, world'
 
 var str2 = str.slice(2, 10)
 console.log(str2)
@@ -215,7 +215,22 @@ console.log(str3)
 
 var tags = 'meat, ham, salami, pork, beef, chicken'
 var tagsArray = tags.split(',')
-console.log(tagsArray)
+console.log(tagsArray) */
+
+/* var myArray = []
+myArray[0] = 25
+myArray[1] = 35
+myArray[2] = true
+myArray[3] = 'hello'
+console.log(myArray)
+myArray[2] = false
+myArray2 = [10,20,'hi',false]
+console.log(myArray2)
+var myArray3 = new Array()
+var myArray4 = new Array(5)
+console.log(myArray2.length)
+console.log(myArray2.sort())
+console.log(myArray2.reverse()) */
 
 
 
