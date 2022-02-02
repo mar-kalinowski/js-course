@@ -186,7 +186,7 @@ if (isNaN(a)) {
     console.log('meaning of life is ' + (a * b))
 } */
 
-var myString = 'I\'m a "fun box" string'
+//var myString = 'I\'m a "fun box" string'
     /* console.log(myString.length)
     console.log(myString.toUpperCase())
     console.log(myString.toLowerCase())
@@ -254,6 +254,22 @@ var myCar2 = {
         console.log(speed * time)}
 }
 
+console.log(myCar2.maxSpeed)
+console.log(myCar2.drive(50, 3)) */
+
+/* var myCar2 = {
+
+    maxSpeed: 70, 
+    driver: 'Jan', 
+    drive: function(speed, time) { 
+        console.log(speed * time)},
+    logDriver: function() {
+        console.log('driver name is ' + this.driver)
+    }
+}
+
+
+myCar2.logDriver()
 console.log(myCar2.maxSpeed)
 console.log(myCar2.drive(50, 3)) */
 
