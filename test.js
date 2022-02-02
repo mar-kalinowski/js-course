@@ -350,6 +350,29 @@ var myTitle = document.getElementById('page-title')
 
 myTitle.textContent = 'the new content of the page title' */
 
+/* var link = document.getElementById('test')
+
+link.getAttribute('href')
+link.getAttribute('class')
+link.setAttribute('class', 'pie')
+link.setAttribute('alt','hello')
+link.className
+link.classname = 'ninja'
+link.href
+link.style */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
