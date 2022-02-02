@@ -332,6 +332,17 @@ if(birthday.getTime() == birthday2.getTime()){
     console.log('birthdays are not equal')
 } */
 
+/* document.getElementsByClassName('content')
+
+var myContentDivs = document.getElementsByClassName('content')
+
+var myH2 = myContentDivs[1].getElementsByTagName('h2')
+
+myH2[0].innerHTML = 'YO NINJAS'
+
+document.getElementById('page-title') */
+
+
 
 
 
