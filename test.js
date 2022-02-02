@@ -200,11 +200,24 @@ var myString = 'I\'m a "fun box" string'
           myString.indexOf('box'))
       }  */
 
-var string1 = 'abc'
+/* var string1 = 'abc'
 var string2 = 'bcd'
 
 console.log(string1.toLowerCase === string2.toLowerCase)
-console.log(string1 < string2)
+console.log(string1 < string2) */
+
+var str = 'hello, world'
+
+var str2 = str.slice(2, 10)
+console.log(str2)
+var str3 = str.slice(3)
+console.log(str3)
+
+var tags = 'meat, ham, salami, pork, beef, chicken'
+var tagsArray = tags.split(',')
+console.log(tagsArray)
+
+
 
 
 
