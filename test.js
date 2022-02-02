@@ -232,6 +232,20 @@ console.log(myArray2.length)
 console.log(myArray2.sort())
 console.log(myArray2.reverse()) */
 
+/* var myString = new String
+myString = 'hello'
+console.log(myString.length)
+console.log(myString.toUpperCase())
+var myString2 = 'hi there'
+console.log(myString2.toUpperCase()) */
+
+
+
+
+
+
+
+
 
 
 
