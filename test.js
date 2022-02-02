@@ -239,7 +239,23 @@ console.log(myString.toUpperCase())
 var myString2 = 'hi there'
 console.log(myString2.toUpperCase()) */
 
+/* var myCar = new Object()
+myCar.maxSpeed = 50
+myCar.driver = 'Marcin'
+myCar.drive = function() { console.log('now driving')}
 
+console.log(myCar.driver)
+console.log(myCar.drive())
+
+var myCar2 = {
+    maxSpeed: 70, 
+    driver: 'Jan', 
+    drive: function(speed, time) { 
+        console.log(speed * time)}
+}
+
+console.log(myCar2.maxSpeed)
+console.log(myCar2.drive(50, 3)) */
 
 
 
