@@ -310,6 +310,28 @@ var myCar4 = new Car(78, 'Martin')
 myCar.drive(30,5)
 myCar3.logDriver() */
 
+/* var myDate = new Date()
+console.log(myDate)
+
+var myPastDate = new Date(1545, 11, 2)
+    console.log(myPastDate) */
+
+/* var birthday = new Date(1979, 10, 21, 20, 37)
+var birthday2 = new Date(1979, 10, 21, 20, 37)
+
+console.log(birthday.getMonth())
+console.log(birthday.getFullYear())
+console.log(birthday.getDate())
+console.log(birthday.getDay())
+console.log(birthday.getHours())
+console.log(birthday.getTime())
+
+if(birthday.getTime() == birthday2.getTime()){
+    console.log('birthdays are equal')
+} else {
+    console.log('birthdays are not equal')
+} */
+
 
 
 
