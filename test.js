@@ -398,6 +398,40 @@ var child = parent.getElementsByTagName('li')[0]
 
 parent.appendChild(removed) */
 
+//var link0 = document.getElementsByClassName("link_0");
+
+var link0 = document.querySelector('.link_0')
+
+link0.onclick = function(){
+
+    alert('you clicked me')
+
+}
+
+var link1 = document.querySelector('.link_1')
+
+link1.onclick = function(){
+
+    alert('you clicked me')
+
+}
+
+var link2 = document.querySelector('.link_2')
+
+link2.onclick = function(){
+
+    alert('you clicked me')
+
+}
+
+/* var link1 = document.getElementById('page-title')
+
+link1.onmouseover = function(){
+
+    alert('you hovered your mouse over me')
+
+} */
+
 
 
 
