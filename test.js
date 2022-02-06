@@ -400,7 +400,7 @@ parent.appendChild(removed) */
 
 //var link0 = document.getElementsByClassName("link_0");
 
-var link0 = document.querySelector('.link_0')
+/* var link0 = document.querySelector('.link_0')
 
 link0.onclick = function(){
 
@@ -422,7 +422,7 @@ link2.onclick = function(){
 
     alert('you clicked me')
 
-}
+} */
 
 /* var link1 = document.getElementById('page-title')
 
@@ -431,6 +431,26 @@ link1.onmouseover = function(){
     alert('you hovered your mouse over me')
 
 } */
+
+var content = document.getElementById('content')
+var button = document.getElementById('show-more')
+
+button.onclick = function(){
+
+    if(content.className == "open") {
+        //shrink the box
+        content.className = ''
+        button.innerHTML = 'Show More'
+    } else {
+        //expand the box
+        content.className = 'open'
+        button.innerHTML = 'Show Less'
+    }
+
+
+    }
+
+
 
 
 
