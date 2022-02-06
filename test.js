@@ -432,7 +432,7 @@ link1.onmouseover = function(){
 
 } */
 
-function setUpEvents() {
+/* function setUpEvents() {
 
     var content = document.getElementById('content')
     var button = document.getElementById('show-more')
@@ -456,7 +456,42 @@ window.onload = function() {
 
     setUpEvents()
 
+    } */
+
+    var myMessage = document.getElementById('message')
+
+    function showMesage() {
+
+        myMessage.className = 'show'
+
     }
+
+    setTimeout(showMesage, 3000)
+
+    let colourChanger = document.getElementById('colour-changer')
+    let colours = ['red', 'blue', 'green', 'pink']
+    let counter = 0
+
+    function changeColour(){
+
+        if (counter >= colours.length){
+            counter = 0
+        }
+
+        colourChanger.style.background = colours[counter]
+        counter++
+
+    }
+
+    var myTimer = setInterval(changeColour, 3000)
+
+    
+    colourChanger.onclick = function() {
+
+        clearInterval(myTimer)
+        colourChanger.innerHTML = 'Timer stopped'
+    }
+
 
 
 
